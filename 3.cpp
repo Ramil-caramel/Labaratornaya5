@@ -1,5 +1,5 @@
 #include <vector>
-#include "header.hpp"
+#include "header.h"
 size_t CountTwoness(const std::vector<Student> &student_v){
 	size_t chislo= 0;
 
