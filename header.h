@@ -9,6 +9,12 @@ struct Student
   std::vector<std::string> Subjects;
 };
 
+struct stud_Bal
+{
+    Student student;
+    double sr_rating;
+};
+
 struct Group
 {
     std::string Id;
