@@ -7,6 +7,7 @@ size_t CountTwoness(const std::vector<Student> &student_v){
 		for (int j = 0; j < student_v[i].Ratings.size();++j){
 			if (student_v[i].Ratings[j] == 2){
 				++chislo;
+				break;
 			}
 		}
 	}
